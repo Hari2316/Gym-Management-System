@@ -28,9 +28,9 @@ export default function AddProducts() {
     };
   return (
     <>
-    <Navbar />
+    <Navbar /><br/><br/><br/>
     <div className="container">
-        <h2>Add Products</h2>
+        <h2>Add Products</h2><br/>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="productName">Product Name</label>
@@ -79,7 +79,7 @@ export default function AddProducts() {
               onChange={(e) => setProductPrice(e.target.value)}
               required
             />
-          </div>
+          </div><br />
           <button type="submit" className="btn btn-primary">
             Submit
           </button>

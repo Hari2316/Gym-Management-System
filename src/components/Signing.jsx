@@ -55,27 +55,27 @@ const Signing = () => {
             <label htmlFor="userFirstName">First Name:</label>
             <br />
             <input type="text" id="userFirstName" />
-            <br />
+            <br /><br />
             <label htmlFor="userLastName">Last Name:</label>
             <br />
             <input type="text" id="userLastName" />
-            <br />
+            <br /><br />
             <label htmlFor="userAge">Age:</label>
             <br />
             <input type="number" id="userAge" />
-            <br />
+            <br /><br />
             <label htmlFor='userSex'>Sex:</label>
             <br />
             <input type="text" id="userSex" />
-            <br />
+            <br /><br />
             <label htmlFor="userEmail">Email:</label>
             <br />
             <input type="email" id="userEmail" />
-            <br />
+            <br /><br />
             <label htmlFor="userPassword">Password:</label>
             <br />
             <input type="password" id="userPassword" />
-            <br />
+            <br /><br/>
             <button className="btn btn-primary" style={buttonStyle} type="submit">
               Sign up
             </button>

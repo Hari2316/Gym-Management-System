@@ -27,9 +27,9 @@ export default function SetTrainer() {
 
   return (
     <>
-      <Navbar />
+      <Navbar /><br/><br /><br/>
       <div className="container">
-        <h2>Set Trainer</h2>
+        <h2>Set Trainer</h2><br/>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="trainerName">Trainer Name</label>
@@ -89,7 +89,7 @@ export default function SetTrainer() {
               onChange={(e) => setTrainerPrice(e.target.value)}
               required
             />
-          </div>
+          </div><br />
           <button type="submit" className="btn btn-primary">
             Submit
           </button>
